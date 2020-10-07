@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Fish Store</title>
+
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <!-- Font awesome -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap" />
+
+  <!-- External css -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <section id="title">
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a href="#" class="navbar-brand custom">Fish Store</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"       data-target="#ul"
+          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="ul" class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#features">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+            <li class="nav-item"><a href="#cta" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-md-12">
+          <h1>Welcome to our Fish family !</h1>
+
+          <button type="button" class="btn btn-info btn-lg dwl_btn">
+            <i class="fab fa-apple"></i> Download
+          </button>
+          <button type="button" class="btn btn-outline-info btn-lg dwl_btn">
+            <i class="fab fa-google-play"></i> Download
+          </button>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <img id="pic" src="images/fish.png" alt="Fish Pot" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Features -->
+
+  <section id="features">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 grid_item">
+          <i class="fas fa-check-circle icons"></i>
+          <h3>Easy to use.</h3>
+          <p>So easy to use, even your fish could do it.</p>
+        </div>
+        <div class="col-lg-4 grid_item">
+          <i class="fas fa-bullseye icons"></i>
+          <h3>Elite Clientele.</h3>
+          <p>We have all the varieties of fishes, their accessories.</p>
+        </div>
+        <div class="col-lg-4 grid_item">
+          <i class="fas fa-heart icons"></i>
+          <h3>Guaranteed to work.</h3>
+          <p>Find the love of your fish's life or your money back.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+
+   <section id="testimonials">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>
+            I am extremely happy with Fish shop and recommend it to everyone.
+          </h2>
+          <img class="testimonial-image" src="images/Fish1.jpg" alt="Fish-profile" />
+          <em>Pebbles, New York</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">
+            There is no second thought when it comes to rating Fish Shop as
+            one of the best service providers in the city
+          </h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile" />
+          <em>Beverly, Illinois</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">
+            My fish used to be so lonely, but with Fish Shop help, they've
+            found the love of their life. I think.
+          </h2>
+          <img class="testimonial-image" src="images/Fish2.jpg" alt="lady-profile" />
+          <em>Henry, LosAngles</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section> 
+
+  <!-- Press -->
+
+  <section id="press">
+    <img class="press-img" src="images/TechCrunch.png" alt="tc-logo" />
+    <img class="press-img" src="images/tnw.png" alt="tnw-logo" />
+    <img class="press-img" src="images/bizinsider.png" alt="biz-insider-logo" />
+    <img class="press-img" src="images/mashable.png" alt="mashable-logo" />
+  </section> 
+
+  <!-- Products -->
+
+  <section id="products">
+    <div class="container-fluid">
+      <h2>A Plan for Every Fish Needs</h2>
+      <p>Simple and affordable price plans for you and your fish.</p>
+      <br /><br />
+      <div class="row">
+        <div class="col-lg-4 col-md-6 product_item">
+          <div class="card">
+            <img src="images/dec_pot.jpg" class="card-img-top card_img" alt="..." />
+            <div class="card-header">
+              <h3>Pots</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 product_item">
+          <div class="card">
+            <img src="images/dec_stones.jpg" class="card-img-top card_img" alt="..." width="80%" />
+            <div class="card-header">
+              <h3>Stones</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 product_item">
+          <div class="card">
+            <img id="card_img" src="images/dec_plants.jpg" class="card-img-top" alt="..." width="80%" />
+            <div class="card-header">
+              <h3>Plants</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 product_item">
+          <div class="card">
+            <img id="card_img" src="images/fish4.jpg" class="card-img-top" alt="..." />
+            <div class="card-header">
+              <h3>All varieties for fishes</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 product_item">
+          <div class="card">
+            <img id="card_img" src="images/dec_airpump2.jpg" class="card-img-top" alt="..." />
+            <div class="card-header">
+              <h3>Air Pump</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 product_item">
+          <div class="card">
+            <img id="card_img" src="images/robotfish.jpg" class="card-img-top" alt="..." />
+            <div class="card-header">
+              <h3>RobotFish</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+    <div class="container-fluid">
+      <h3>Find the True needs of Your Fish Today.</h3>
+      <h6>Contact us</h6>
+      <h6>Fish Shop Hyderabad-Visakhapatam-Chennai</h6>
+      <div class="row">
+        <div class="contact_item col-lg-12 col-md-12 col-sm-12">
+          <i class="fas fa-mobile"></i>
+          Call : +91-8978538861
+        </div>
+        <div class="contact_item col-lg-12 col-md-12 col-sm-12">
+          <i class="fas fa-at"></i>
+          Email : info@fishshop.com
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <p>© Copyright 2020 Fish Shop</p>
+  </footer>
+</body>
+
+</html>
