@@ -1,0 +1,177 @@
+body {
+  color: #0f3057;
+  font-family: "Montserrat", sans-serif;
+  background-color: #ddf3f5;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  font-size: 3.2rem;
+  line-height: 1;
+}
+
+h2,h3 {
+  font-weight: bold;
+}
+
+p {
+  color: gray;
+}
+/* Title section */
+
+.container-fluid {
+  padding: 3% 15% 3% 15%;
+}
+
+/* title image */
+#pic {
+  width: 90%;
+  transform: rotate(25deg);
+}
+
+/* Navbar */
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand.custom {
+  font-family: "Ubuntu";
+  color: #008891;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 1rem;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-family: "Montserrat";
+  font-weight: lighter;
+}
+
+/* Download buttons */
+
+.dwl_btn {
+  margin: 2rem 1.5rem 0 0;
+}
+
+/* Features Section */
+#features {
+  padding: 4rem 0 4rem 0;
+  background-color: #f6f6f6;
+}
+/* Features icons */
+i.icons {
+  font-size: 50px;
+  padding-bottom: 1rem;
+}
+
+i.icons:hover {
+  color: #008891;
+}
+
+/* Features Grid */
+.grid_item {
+  padding: 4%;
+}
+
+/* Testimonials */
+
+#testimonials {
+  color: #008891;
+  padding-bottom: 50px;
+}
+#testimonials h2{
+  font-size: 2rem;
+}
+
+.testimonial-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  padding: 20px;
+}
+
+.carousel-item {
+  size:500px;
+  padding: 6rem 12rem;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
+}
+
+/* Press */
+
+#press {
+  padding-bottom: 100px;
+}
+
+.press-img {
+  width: 15%;
+  margin: 10px 5px 20px;
+}
+
+/* Products */
+
+#products {
+  background-color: #f6f6f6;
+  text-align: center;
+  padding: 7rem 0 4rem 0;
+}
+
+#products h2{
+  font-size: 2.8rem;
+  line-height: 1.5;
+}
+
+/* Product -> Cards */
+
+.card {
+  width: 85%;
+  padding: 10px;
+  padding-bottom: 0;
+  background-color: #ddf3f5;
+  margin-bottom: 20px;
+  color: #008891;
+  border-radius: 10%;
+}
+
+.card_img {
+  border-radius: 100%;
+}
+
+.card-header {
+  background-color: unset;
+  border: none;
+}
+
+/* Call to Action */
+
+.contact_item {
+  padding: 5px;
+}
+
+/* Footer */
+
+#footer {
+  font-size: 0.8rem;
+}
+
+/* Responsive design */
+
+@media (max-width: 991px) {
+  #pic {
+    width: 70%;
+    transform: rotate(0deg);
+  }
+  #title {
+    text-align: center;
+  }
+}
